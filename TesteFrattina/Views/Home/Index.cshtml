@@ -1,0 +1,53 @@
+﻿@model PasswordRequest
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<header>
+    <nav class="container">
+        <div class="logo-box">
+            <a href="https://www.frattina.com.br/" target="_black">
+                <img src="~/css/RGA/assets/frattina_logo1.png" alt="Frattina" class="logo" />
+            </a>
+        </div>
+        <div class="parent-link">
+            <a href="https://www.frattina.com.br/nossa-historia " class="social-links">Nossa História</a>
+            <a href="https://www.frattina.com.br/nossas-lojas" class="social-links">Lojas</a>
+            <a href="https://www.frattina.com.br/contato" class="social-links">Agendamento</a>
+        </div>
+    </nav>
+</header>
+<body>
+    <div class="container">
+        <form asp-action="ValidatePassword" asp-controller="Account" method="post" class="sub-form container">
+            <div class="upper-form">
+                <h2>Validador de Senha</h2> <br />
+                <label>Senha</label>  <br />
+                <input name="password" asp-for="password"> <br />
+                @if (Model?.errors != null)
+                {
+                    <div class="alerta-falha">
+                        @foreach (var x in Model.errors)
+                        {
+                            <div class="alert alert-danger">
+                                @x
+                            </div>
+                        }
+                    </div>
+                }
+
+                @if (Model != null && Model.SuccessMessage != null)
+                {
+                    <div class="alert alert-success">
+                        @Model.SuccessMessage
+                    </div>
+                }
+
+                <div class="btn">
+                    <button type="submit">Validar</button> <br />
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+

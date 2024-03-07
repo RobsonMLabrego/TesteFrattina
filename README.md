@@ -35,6 +35,31 @@ O back-end da aplicação inclui classes como `ErrorViewModel` e `AccountControl
 - `Contains(" ")`: garante que não haja espaços em branco.
 - `Distinct().Count()`: garante que não haja caracteres repetidos.
 
+Claro! Aqui está a versão atualizada para incluir no README do GitHub:
+###  bibliografia Utilizadas Para a realização do projeto
+### Front-end:
+1. **Bootstrap**: Uma estrutura de front-end popular que fornece componentes prontos e estilos predefinidos para agilizar o desenvolvimento da interface do usuário.
+   - [Site oficial do Bootstrap](https://getbootstrap.com/)
+   - [Documentação do Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)  
+4. **Google Fonts**: Uma coleção gratuita de fontes para uso na web.
+   - [Site oficial do Google Fonts](https://fonts.google.com/)
+
+### Back-end:
+1. **ASP.NET Core**: Um framework de desenvolvimento web da Microsoft para construir aplicativos web modernos e escaláveis.
+   - [Site oficial do ASP.NET Core](https://dotnet.microsoft.com/apps/aspnet)
+   - [Documentação do ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-6.0)
+
+2. **Entity Framework Core**: Uma ferramenta de mapeamento objeto-relacional (ORM) que simplifica o acesso e manipulação de dados em bancos de dados relacionais.
+   - [Site oficial do Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)
+   - [Documentação do Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)
+
+### Aprendizado adicional:
+1. **YouTube**: Uma vasta fonte de tutoriais e vídeos de aprendizado sobre desenvolvimento web, onde você pode encontrar tutoriais específicos sobre Bootstrap, ASP.NET Core, e outros temas relevantes. 
+2. **Udemy**: Uma plataforma de cursos online onde você pode encontrar uma variedade de cursos sobre desenvolvimento web, incluindo Bootstrap, ASP.NET Core e muito mais.
+   - [Site oficial da Udemy](https://www.udemy.com/)
+
+Essas são apenas algumas referências usuais que podem ser úteis para o seu projeto. Explore esses recursos para expandir seu conhecimento e aprimorar suas habilidades de desenvolvimento web.
+
 ## Considerações finais
 
 Este README fornece instruções básicas para executar o projeto e detalhes sobre a solução desenvolvida para o teste Frattina. Se precisar de mais informações ou esclarecimentos,entre em contato. Fico no aguardo para proxima etapa e Obrigado pela oportunidade!
